@@ -1,0 +1,175 @@
+use_bpm 102
+luffy = "/Users/bingr/AppData/Local/CapCut/Videos/0414/0414.MP3"
+
+
+
+live_loop :one_piece do
+  #measure 1
+  use_synth :chipbass
+  sample luffy
+  sleep 20
+  sample :drum_cymbal_closed
+  sleep 0.5
+  sample :drum_cymbal_closed
+  sleep 0.5
+  live_loop :ambiance do
+    sample :ambi_lunar_land, amp: 2, beat_stretch: 16, rate: -1
+    sleep 16
+    sample :ambi_lunar_land, amp: 2, beat_stretch: 16, rate: 1
+    sleep 16
+  end
+  play :r
+  sleep 2
+  play :a3
+  sleep 0.25
+  play :c4
+  sleep 0.25
+  play :d4
+  sleep 0.5
+  play :g4
+  sleep 0.25
+  play :a4
+  sleep 0.25
+  play :c5
+  sleep 0.5
+  
+  #measure 2
+  
+  play :d4
+  sleep 0.5
+  play :e5
+  sleep 0.5
+  play :f4
+  sleep 0.5
+  play :a3
+  sleep 0.5
+  play :a4
+  sleep 0.5
+  play :g4
+  sleep 0.25
+  play :a4
+  sleep 0.25
+  play :d4
+  sleep 0.5
+  play :r
+  sleep 0.5
+  #measure 3
+  
+  play :d4
+  sleep 0.5
+  play :e5
+  sleep 0.5
+  play :f4
+  sleep 0.5
+  play :a3
+  sleep 0.5
+  play :a4
+  sleep 0.5
+  play :g4
+  sleep 0.25
+  play :a4
+  sleep 0.25
+  play :d4
+  sleep 1
+  #measure 4
+  
+  play :c4
+  sleep 0.5
+  play :d4
+  sleep 0.5
+  play :e4
+  sleep 0.5
+  play :g3
+  sleep 0.5
+  play :g4
+  sleep 0.5
+  play :f4
+  sleep 0.25
+  play :g4
+  sleep 0.25
+  play :c4
+  sleep 0.5
+  play :r
+  sleep 0.5
+  
+  #measure 5
+  play :f4
+  sleep 1
+  play :g4
+  sleep 1
+  play :a4
+  sleep 0.5
+  play :g4
+  sleep 0.25
+  play :f4
+  sleep 0.25
+  play :e4
+  sleep 1
+  #measure 6
+  play :d4
+  sleep 0.5
+  play :e5
+  sleep 0.5
+  play :f4
+  sleep 0.5
+  play :a3
+  sleep 0.5
+  play :a4
+  sleep 0.5
+  play :g4
+  sleep 0.25
+  play :a4
+  sleep 0.25
+  play :d4
+  sleep 0.5
+  play :r
+  sleep 0.5
+  #measure7
+  play :d4
+  sleep 0.5
+  play :e5
+  sleep 0.5
+  play :f4
+  sleep 0.5
+  play :a3
+  sleep 0.5
+  play :a4
+  sleep 0.5
+  play :g4
+  sleep 0.25
+  play :a4
+  sleep 0.25
+  play :d4
+  sleep 1
+  
+  play :c4
+  sleep 0.5
+  play :d4
+  sleep 0.5
+  play :e4
+  sleep 0.5
+  play :g3
+  sleep 0.5
+  play :g4
+  sleep 0.5
+  play :f4
+  sleep 0.25
+  play :g4
+  sleep 0.25
+  play :c4
+  sleep 0.5
+  play :r
+  sleep 0.5
+end
+
+sleep 32
+
+live_loop :ambiance do
+  sample :ambi_lunar_land, amp: 2, beat_stretch: 16, rate: -1
+  sleep 16
+  sample :ambi_lunar_land, amp: 2, beat_stretch: 16, rate: 1
+  sleep 16
+end
+
+
+#FADE OUT
